@@ -1,6 +1,6 @@
 const horaAmPm=document.querySelector('#horaAmPm');
 const btn=document.querySelector('#btnConvertirHora');
-const pResultado=document.querySelector('#resultado');
+const spanResultado=document.querySelector('#resultado');
 
 function btnOnClick(){
     let s=horaAmPm.value;
@@ -42,6 +42,6 @@ function timeConversion(s) {
 
 function main(s) {
     const result = timeConversion(s);    
-    pResultado.innerText="Hora formato 24-h: "+result;    
+    spanResultado.innerText=result;    
 }
 

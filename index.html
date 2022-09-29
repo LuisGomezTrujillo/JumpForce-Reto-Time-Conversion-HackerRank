@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time Conversion</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversión de Formatos de Hora 12H-24H</title>
 </head>
 <body>
     <header>
         <img src="./logo.png" alt="logo jump force" width="200px" style="position: center;">
     </header>
     <main>
+        <div class="titulo">
+            <h1>Conversión de Formatos de Hora 12H-24H</h1>
+        </div>
+
         <div>
-            <h1>Time Conversion</h1>
+            
             <p>Dada una hora en el formato AM/PM, será convertida al formato militar (24-horas).</p>
             <label for="horaAmPm">Hora Formato AM/PM</label>
             <input type="text" id="horaAmPm" class="hora" placeholder="Ingresa la hora en formato AM/PM" style="width: 220px ;"  />
             
             <button id="btnConvertirHora" onclick="btnOnClick()">Convertir a formato 24-horas</button>
         
-            <p id="resultado"></p>
+            <p>Hora formato 24-H:   <span id="resultado" style="color: blue;"></span></p>
             <script src="./script.js"></script>
         </div>
     </main>
