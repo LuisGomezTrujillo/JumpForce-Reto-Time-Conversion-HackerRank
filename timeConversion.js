@@ -30,7 +30,7 @@
  */
 
 function timeConversion(s) {
-    // Write your code here
+    
     let horas;
         
     horas=parseInt(s[0]+s[1]);
